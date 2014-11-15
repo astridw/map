@@ -5,3 +5,10 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+
+
+["Greenspoint", "Sugar land", "Missouri City", "Montrose", "Downtown", "Rice"].each do |name|
+
+Point.create name: name
+end
